@@ -1,0 +1,110 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 24px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+    margin: 0 160px;
+}
+
+.menu_items {
+    display: inline-block;
+    line-height: 28px;
+    color: #2F281E;
+}
+
+.menu_items:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.menu_items:hover {
+    color: #FF9900;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.button_items {
+    width: 110px;
+    height: 46px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.button_white {
+    border: 1px solid #BCD0E5;
+    background-color: #FFFFFF;
+}
+
+.button_orange {
+    border: 1px solid #FF9900;
+    color: #FFFFFF;
+    background-color: #FF9900;
+}
+
+.button_items:hover {
+    background-color: rgb(82, 232, 240);
+}
+
+.button_items:not(:last-of-type) {
+    margin-right: 32px;
+}
+
+.section_ux {
+    margin-top: 96px;
+    display: flex;
+}
+
+.ux {
+    max-width: 500px;
+    margin: auto 0;
+}
+
+.ux_title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.ux_text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    margin: 30px 0 33px;
+}
+
+.ux_image_item {
+    margin-left: 50px;
+    max-width: 644px;
+}
+
+.button_ux {
+    width: 180px;
+    height: 50px;
+    background: #FF9900;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button_ux:hover {
+    background-color: rgb(82, 232, 240);
+}
