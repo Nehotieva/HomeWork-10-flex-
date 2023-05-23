@@ -59,6 +59,7 @@
 
 .button_items:hover {
     background-color: rgb(82, 232, 240);
+    cursor: pointer;
 }
 
 .button_items:not(:last-of-type) {
@@ -66,7 +67,7 @@
 }
 
 .section_ux {
-    margin-top: 96px;
+    margin: 96px auto 99px;
     display: flex;
 }
 
@@ -107,4 +108,155 @@
 
 .button_ux:hover {
     background-color: rgb(82, 232, 240);
+    cursor: pointer;
+}
+
+.section_features {
+    background-image: url(../img/background.img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 200px;
+}
+
+.features__title {
+    text-align: center;
+    max-width: 540px;
+}
+
+.features__title {
+    margin: 40px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.feature {
+    max-width: 250px;
+    min-width: 200px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.btn_link {
+    padding: 13px 40px;
+    background: #ff9900;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.btn_link:hover{
+    background-color: rgb(82, 232, 240);
+    cursor: pointer;
+}
+
+.section_validation {
+    margin-bottom: 100px;
+}
+
+.text_main {
+    margin-bottom: 40px;
+}
+
+.validation_passage {
+    max-width: 525px;
+    margin: auto 0;
+}
+
+.validation_text {
+    margin-bottom: 40px;
+}
+
+.section_manager {
+    margin-bottom: 100px;
+}
+
+.manager_passage {
+    max-width: 440px;
+    margin: auto 0;
+}
+
+.manager_items {
+    flex-wrap: nowrap;
+}
+
+.manager_item_img {
+    max-height: 30px;
+    margin: auto 0;
+}
+
+.section_marketer {
+    padding-bottom: 100px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid rgba(188, 208, 229, 0.5);
+}
+
+.marketer_passage {
+    max-width: 486px;
+    margin: auto 0;
+}
+
+.marketer_text {
+    margin-bottom: 30px;
+}
+
+.footer {
+    list-style-type: none;
+}
+
+
+.footer>li {
+    margin-bottom: 15px;
+}
+
+.footer>li:hover{
+    color: #f29406;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.footer_title {
+    margin-bottom: 30px;
+
+}
+
+.footer_text_input {
+    margin-bottom: 25px;
+    max-width: 280px;
+}
+
+.footer_input {
+    width: 340px;
+    height: 50px;
+    color: rgba(188, 208, 229, 1);
+    border: 1px solid rgba(188, 208, 229, 1);
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.input_button {
+    width: 180px;
+    height: 50px;
+    background-color: rgba(255, 153, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-weight: 700;
+}
+
+.input_button:hover {
+    background-color: rgb(82, 232, 240);
+    cursor: pointer;
 }
